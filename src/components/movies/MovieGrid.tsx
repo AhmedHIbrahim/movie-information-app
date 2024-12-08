@@ -86,29 +86,6 @@ const MovieGrid: React.FC = () => {
           onPageChange={handlePageChange}
         />
       )}
-
-      {/* {totalPages > 1 && (
-        <div className="flex justify-center space-x-2 mt-8 w-full overflow-x-auto">
-          {Array.from({ length: totalPages }, (_, i) => i + 1).map(
-            (pageNum) => (
-              <button
-                key={pageNum}
-                onClick={() => handlePageChange(pageNum)}
-                className={`
-                px-4 py-2 rounded-full text-sm font-medium transition-all duration-300
-                ${
-                  currentPage === pageNum
-                    ? "bg-indigo-600 text-white hover:bg-indigo-700"
-                    : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-                }
-              `}
-              >
-                {pageNum}
-              </button>
-            )
-          )}
-        </div>
-      )} */}
     </div>
   );
 };

@@ -18,5 +18,5 @@ export interface OmdbMovieDetails {
   Ratings: {
     Source: string;
     Value: string;
-  }[];
+  }[]; 
 }
